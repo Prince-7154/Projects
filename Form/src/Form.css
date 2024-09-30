@@ -1,0 +1,99 @@
+/* Form container styles */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f7f7; /* Light background color */
+}
+
+/* Form box styles */
+.styled-form {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Form elements spacing */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input, textarea, select styling */
+.styled-form input,
+.styled-form textarea,
+.styled-form select {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  /* width: 100%; */
+  margin-top: 5px;
+  outline: none;
+}
+
+.styled-form textarea {
+  height: 100px;
+}
+
+/* Radio button styling */
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.radio-group input {
+  margin-right: 10px;
+}
+
+/* Checkbox styling */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+/* Color box styling */
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styles */
+.form-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+/* Heading style */
+.styled-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
